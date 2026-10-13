@@ -1,0 +1,17 @@
+# Ignore compiled model weights
+models/*.h5
+
+# Ignore heavy media assets
+assets/*.mp4
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Ignore live telemetry logs
+*.csv
+
+# Ignore virtual environments and local secrets
+venv/
+.venv/
+.env
